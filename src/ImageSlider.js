@@ -11,8 +11,11 @@ export default class ImageSlider extends React.Component {
     }
   }
   render(){
-    <div>
-      <p>I am on slide {this.state.currentSlideIndex}</p>
-    </div>
+
+    return(
+      <div>
+        <p>I am on slide {this.state.currentSlideIndex}</p>
+      </div>
+    )
   }
 }
