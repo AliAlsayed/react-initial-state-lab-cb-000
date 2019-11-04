@@ -12,6 +12,7 @@ export default class Bomb extends React.Component {
   render(){
     return(
       <div>
+        <p></p>
       </div>
     )
   }
