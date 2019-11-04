@@ -12,7 +12,7 @@ export default class Bomb extends React.Component {
   render(){
     return(
       <div>
-        <p>{this.state.secondsLeft > 0 ? `${secondsLeft} seconds left before I go boom!` : 'Boom!'}</p>
+        <p>{this.state.secondsLeft > 0 ? `${this.state.secondsLeft} seconds left before I go boom!` : 'Boom!'}</p>
       </div>
     )
   }
